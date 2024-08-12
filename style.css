@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* nav bar start here  */
+nav{
+    background-color: rgba(56, 53, 53, 0.308);
+    display: flex;
+    max-width:1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+}
+nav h3{
+    color: white;
+}
+.btn{
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+}
+.nav-button{
+    display: flex;
+    gap: 20px;
+    /* padding-left: 300px; */
+}
+.ham-menu{
+    display: none;
+}
+/* banner section start here  */
+.main-section{
+    max-width: 1000px;
+    /* border: 2px solid rebeccapurple; */
+    margin: 0 auto;
+    height: 200px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(58, 58, 58, 1) ;
+    margin-bottom: 16px;
+}
+.banner-desc{
+    font-weight: 600px;
+    font-size: 16px;
+    color: rgba(58, 58, 58, 1);
+    opacity: 60%;
+    margin-bottom: 25px;
+}
+.btn-banner{
+    background-color: rgba(224, 44, 109, 1);
+    border-radius: 41px;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.banner-img{
+    border: 3px solid rgb(155, 146, 146);
+    height: 414px;
+    width: 430px;
+    border-radius: 50%;
+    background-color: rgba(97, 80, 80, 0.116);
+    /* opacity: 40%; */
+}
+.banner-main{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+/* logo section start here  */
+.logo-section{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    border: 1px solid rgba(70, 66, 66, 0.247);
+    padding: 30px;
+}
+/* collection section start here  */
+.collection-title{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 600px;
+    font-size: 25px;
+    color: rgba(58, 58, 58, 1);
+}
+.coll-title{
+    color: rgba(24, 25, 31, 1);
+    font-weight: 600;
+    font-size: 25px;
+}
+.collec-price{
+    counter-reset: rgba(0, 0, 0, 0.87);
+    font-weight: 400;
+    font-size: 22px;
+}
+.collection-content .rating{
+    display: flex;
+    gap: 15px;
+}
+.description{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(120, 120, 133, 1);
+    /* opacity: 60%; */
+}
+.collection-img{
+    border-radius: 5px;
+}
+.collect{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.collection-package{
+    padding: 15px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
