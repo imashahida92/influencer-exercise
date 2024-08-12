@@ -120,6 +120,7 @@ nav h3{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
+    margin-bottom: 50px;
 }
 .collection-package{
     padding: 15px;
@@ -127,4 +128,9 @@ nav h3{
     display: inline-block;
     border-radius: 5px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* feature section start here  */
+.feature{
+    display: flex;
+    gap: 90px;
 }

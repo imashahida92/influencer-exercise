@@ -24,6 +24,16 @@
     .collect{
         grid-template-columns: repeat(2,1fr);
     }
+    .feature{
+        flex-direction: column;
+    }
+    .feature-img{
+        text-align: center;
+        padding: 10px;
+    }
+    .feature-content{
+        text-align: center;
+    }
 }
 @media screen and (max-width:576px) and (min-width:0px){
     .nav-button{
@@ -72,5 +82,15 @@
     .rating{
         align-items: center;
         justify-content: center;
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .feature-img{
+        text-align: center;
+        padding: 10px;
+    }
+    .feature-content{
+        text-align: center;
     }
 }
