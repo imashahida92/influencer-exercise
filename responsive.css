@@ -34,6 +34,14 @@
     .feature-content{
         text-align: center;
     }
+    .footer{
+       /* margin: 0 auto;
+       width: 100%; */
+       display: block;
+       height: 200px;
+       padding-top: 30px;
+    }
+    
 }
 @media screen and (max-width:576px) and (min-width:0px){
     .nav-button{
@@ -93,4 +101,11 @@
     .feature-content{
         text-align: center;
     }
+    .footer{
+        /* margin: 0 auto;
+        width: 100%; */
+        display: block;
+        height: 150px;
+        padding-top: 15px;
+     }
 }
